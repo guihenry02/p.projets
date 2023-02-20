@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/parceiro-de-conceito-ilustra%C3%A7%C3%A3o-do-vetor-trabalho-da-equipe-quebra-cabe%C3%A7a-parceria-pessoal-neg%C3%B3cios-colaborando-juntos-no-162189185.jpg);
+    background-size:cover;
+}
+
+h3{
+    padding-top: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 0.30rem;
+}
+
+select{
+    height: 25px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 200px;
+    width: 300px;
+    margin-bottom:20px ;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius:.30rem;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    transition: .3s;
+    background-color: rgb(54, 194, 187);
+}
+
+form{
+    background-color: #b9b9b9ab;
+
+    width:330px;
+    height:450px ;
+    position: absolute;
+    left:40%;
+    top: 20%;
+    border-radius: .85rem;
+    padding-left: 30px;
+   
+}

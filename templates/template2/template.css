@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:blanchedalmond ;
+}
+h1{
+    font-size: 70px;
+    position: absolute;
+    bottom: 50vh;
+    left: 50vw;
+    line-height: 1vh;
+    color: #641414;
+    
+}
+
+
+.colum{
+    display: flex;
+    position: absolute;
+    top: 55vh;
+    left: 33vw;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: .6rem;
+    margin-left: 50px;
+    margin-right:50px ;
+    border-bottom: red 10px solid;
+    text-align: center;
+    line-height: 20px;
+    transition: .3s;
+}
+
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMeYbRko5gGmUNq24Av2_uw2AMnvq1DIZd7w&usqp=CAU);
+    background-size:180%;
+    background-repeat: no-repeat;
+}
+
+
+
+.column{
+    display: flex;
+    position: absolute;
+    top:7vh;
+    left: 25vw;
+    border-bottom: 2px solid black;
+    padding-bottom:50px ;
+
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: .3rem;
+    border: rgba(128, 128, 128, 0.13) 1px solid;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: #ffffff4f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-e{
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: .6rem;
+    margin-left: 50px;
+    margin-right:50px ;
+    border-bottom: #232346 10px solid;
+    text-align: center;
+    line-height: 20px;
+    transition: .3s;
+}
+
+.card-e:hover{
+    transition:1s;
+    transform: scale(1.1);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1UI-3-EZ7khBYFsco7PBYB48vKZ20hRlExQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffed9d;
+
+}   
+
+.btn{
+    margin-top: 160px;
+}
+
+#edt{
+    padding-top: 30px;
+}
